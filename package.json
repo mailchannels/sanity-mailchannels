@@ -1,0 +1,25 @@
+{
+  "name": "mailchannels-sanity-notifications",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sanity Functions that email editors through MailChannels when documents are published or ready for review.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --test test/*.mjs"
+  },
+  "dependencies": {
+    "@sanity/blueprints": "0.28.0",
+    "@sanity/functions": "1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6",
+    "typescript": "5.9.3",
+    "undici": "8.12.3",
+    "vite": "8.3.5"
+  }
+}

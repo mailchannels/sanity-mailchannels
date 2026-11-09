@@ -1,0 +1,4 @@
+{
+  "published": {"projectId":"replaceproject","dataset":"production","documentTypes":["post"],"routingRevision":"publish-v1"},
+  "review": {"projectId":"replaceproject","dataset":"production","documentTypes":["post"],"routingRevision":"review-v1","statusField":"editorialStatus","readyValue":"ready"}
+}
